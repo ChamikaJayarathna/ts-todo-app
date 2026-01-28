@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ChamikaJayarathna/ts-todo-app/issues"
   },
-  "homepage": "https://github.com/ChamikaJayarathna/ts-todo-app#readme"
+  "homepage": "https://github.com/ChamikaJayarathna/ts-todo-app#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
