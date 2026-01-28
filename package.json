@@ -19,5 +19,8 @@
   "homepage": "https://github.com/ChamikaJayarathna/ts-todo-app#readme",
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "uuid": "^13.0.0"
   }
 }
