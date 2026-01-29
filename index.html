@@ -4,19 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ts-todo-app</title>
-    <style>
-      #list {
-        list-style: none;
-        padding: 0;
-      }
-    </style>
-    <script type="module" src="./src/index.ts"></script>
   </head>
   <body>
-    <ul id="list"></ul>
-    <form id="new-task-form">
-      <input type="text" name="" id="new-task-title" />
-      <button type="submit">Add</button>
-    </form>
+    <section id="controls">
+      <input type="text" name="" id="todo-text" />
+      <button type="button">Add TODO</button>
+    </section>
+    <section id="todo-list">
+      <ul>
+        <li><input type="checkbox" /><span>First Item</span></li>
+      </ul>
+    </section>
+    <script type="module" src="./src/index.ts"></script>
   </body>
 </html>
