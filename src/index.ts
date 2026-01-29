@@ -29,4 +29,10 @@ todoAdd.addEventListener('click', ()=>{
     li.appendChild(checkbox);
     li.appendChild(span);
     todoList.appendChild(li);
+    todoAdd.disabled = true;
+});
+
+todoInput.addEventListener('keyup', (ev)=>{
+    const input = ev.target as HTMLInputElement;
+    todoAdd.disabled = input.value !== "" ? false : true;
 });
